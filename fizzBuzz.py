@@ -11,5 +11,8 @@ def checkNum(num):
 	return
 
 def main():
+	for i in range(1, 101):
+		print(checkNum(i))
+		
 	return
 main()
