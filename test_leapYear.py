@@ -9,4 +9,7 @@ class TestCase(unittest.TestCase):
 		result = leapYear.testYear(2100)
 		self.assertEqual(result, "Year is not a leap year")
 
+		result = leapYear.testYear(2003)
+		self.assertEqual(result, "Year is not a leap year")
+
 		return
