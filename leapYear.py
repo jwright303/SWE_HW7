@@ -7,6 +7,8 @@ def testYear(year):
 				return "Year is not a leap year"
 		else:
 			return "Year is a leap year"
+	else:
+		return "Year is not a leap year"
 
 def main():
 	return
